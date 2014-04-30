@@ -5,9 +5,9 @@ Ext.application({
     requires: [
         'Ext.MessageBox'
     ],
-    
+
 views:['Main','Register','HomePage','PrePollsLeftMenu','PrePollsRightMenu','News1'],
-controllers:['Videos','Letters','OpinionPolls','MeetUps','Main','PopularPosts','Attend'],
+controllers:['Videos','Letters','OpinionPolls','MeetUps','Main','PopularPosts',],
 stores:['OpinionPolls','MeetUps','States','Constituencies','PrePollsLeftMenu','News','DiscussionForum'],
 models:['OpinionPolls','MeetUps','States','Constituencies','PrePollsLeftMenu','News','DiscussionForum'],
     icon: {
