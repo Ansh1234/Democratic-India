@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<title></title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script>
+		$(document).ready(function()
+		{
+			 $.ajax({
+            url: "cons.php",
+            data: {"name":"anshul"},
+            type:"POST",
+            dataType:"json",
+            success: function(data){
+
+            	console.log(data);
+          }
+     });
+
+		});
+		</script>
+		<style></style>
+	</head>
+	<body>
+		<div>
+		</div>
+	</body>
+</html>

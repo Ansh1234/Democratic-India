@@ -1,0 +1,150 @@
+.homepage_toolbar
+{
+	padding:10px;
+	height:60px;
+}
+#homepage_div
+{
+	padding-top:25px;
+	padding-left:90px;
+	min-height:250px;
+	min-width:220px;
+	height:300px;
+	width:300px;
+	margin-bottom:5%;
+	min-height:200px;
+}
+
+#homepage_image
+{
+	width: 300px;
+	height: 300px;
+}
+.homepage_toolbar_title
+{
+	font-size:22px;
+	padding-top:5px;
+	color:white;
+	text-align:center;
+	font-weight:bold
+}
+.homepage_toolbar_div
+{
+	margin-left: 40px;
+}
+.home_toolbar_image
+{
+	height:47px;
+	width:100px;
+	float:left;
+	margin-left:17px
+}
+.icons
+{
+	margin-left:30px;
+	margin-top:5px;
+	width: 40px;
+	height: 40px;
+}
+.border_login_input
+{
+	border:2px solid #0A63A1
+}
+.homepage
+{
+	height: 100%,
+	background:black;
+}
+.register_initial
+{
+	display: none;
+	background-color:blue;
+}
+.gotoregister
+{
+	position: fixed;
+	bottom: 100px;
+	left: 40%;
+	width: 'auto';
+	background: #0A63A1;
+	color:white;
+	padding: 10px;
+}
+.yes
+{
+	
+	height: 50px;
+	width: 50px;
+}
+.no
+{
+	width: 80px;
+	color:white;
+	background: #cc0000;
+	font-size: 14px;
+	margin-top: 3px;
+
+}
+.notsure
+{
+	width: 80px;
+	color: white;
+	font-size: 14px;
+
+}
+.yesnumber
+{
+	font-size: 14px;
+	margin-left:10px;
+	margin-bottom: 5px;
+}
+.nonumber
+{
+	font-size: 14px;
+	margin-left:10px;
+	margin-bottom: 5px;
+}
+.notsurenumber
+{
+	font-size: 14px;
+	margin-left:10px;
+	margin-bottom: 5px;
+}
+.appbackground
+{
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #4C77DB),color-stop(1, #6BDFFF));background-image: -o-linear-gradient(bottom, #4C77DB 0%, #6BDFFF 100%);background-image: -moz-linear-gradient(bottom, #4C77DB 0%, #6BDFFF 100%);background-image: -webkit-linear-gradient(bottom, #4C77DB 0%, #6BDFFF 100%);background-image: -ms-linear-gradient(bottom, #4C77DB 0%, #6BDFFF 100%);background-image: linear-gradient(to bottom, #4C77DB 0%, #6BDFFF 100%);
+}
+
+.majorbackground
+{
+	background: #0A63A1
+}
+.opinionpolls
+{
+	border:2px solid #156EAC;
+	padding: 10px 20px;
+	margin:20px;
+}
+.opinionpolls_title
+{
+	font-size:20px;
+	color: #4386B5;
+	margin-bottom: 25px;
+	font-weight: bold;
+}
+.meetups_firstheader
+{
+	font-size: 22px;
+	color: #20aae0;
+	margin-bottom: 15px;
+}
+.meetups_right
+{
+	margin-left: 20px;
+	color: #20aae0;
+}
+.minor_details
+{
+	font-size: 15px;
+	margin-left: 10px;
+}

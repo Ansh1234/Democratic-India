@@ -1,0 +1,121 @@
+{
+                                    flex:1,
+                                    style:'margin:25px;border: 3px solid #d4d4d4;background:#e6e6e6;border-radius:25px;padding:20px;padding-right:5px',
+                                    layout:'hbox',
+                                    items:
+                                        [
+                                            {
+                                                items:
+                                                [
+                                                    {   
+                                                      flex:1,
+                                                      html:'<img height="100px" width="100px" src="resources/images/services/globalization.png"/>'
+                                                    },
+                                                    {
+                                                        xtype:'label',
+                                                        html:'124 people attending',
+                                                        style:'font-size:12px;margin-top:12px'
+                                                    },
+                                                    {
+                                                        xtype:'button',
+                                                        html:'Attend',
+                                                        ui:'action',
+                                                        style:'width:100px;font-size:14px;margin-top:5px'
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                flex:2,
+                                                cls:'meetups_right',
+                                                items:
+                                                    [
+                                                        {
+                                                            xtype:'label',
+                                                            html:'Globalization',
+                                                            cls:'meetups_firstheader'
+                                                        },
+                                                        {
+                                                             xtype:'label',
+                                                            html:'Speaker : Anant Kumar, M.P South Bangalore',
+                                                       
+                                                        },
+                                                        {
+                                                            style:'margin-top:30px',
+                                                            xtype:'label',
+                                                            html:'Venue: Total Mall, Domlur',
+                                                            cls:'minor_details'
+                                                        },
+                                                        {
+                                                            xtype:'label',
+                                                            html:'Date: Jan 21 2014',
+                                                             cls:'minor_details'
+                                                        },
+                                                         {
+                                                            xtype:'label',
+                                                            html:'Time: 10:00 A.M',
+                                                             cls:'minor_details'
+                                                        }
+                                                    ]
+                                            }
+                                        ]
+                                },  {
+                                    flex:1,
+                                    style:'margin:25px;border: 3px solid #d4d4d4;background:#e6e6e6;border-radius:25px;padding:20px;padding-right:5px',
+                                    layout:'hbox',
+                                    items:
+                                        [
+                                            {
+                                                items:
+                                                [
+                                                    {   
+                                                      flex:1,
+                                                      html:'<img height="100px" width="100px" src="resources/images/services/women.png"/>'
+                                                    },
+                                                    {
+                                                        xtype:'label',
+                                                        html:'124 people attending',
+                                                        style:'font-size:12px;margin-top:12px'
+                                                    },
+                                                    {
+                                                        xtype:'button',
+                                                        html:'Attend',
+                                                        ui:'action',
+                                                        style:'width:100px;font-size:14px;margin-top:5px'
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                flex:2,
+                                                cls:'meetups_right',
+                                                items:
+                                                    [
+                                                        {
+                                                            xtype:'label',
+                                                            html:'Women Safety',
+                                                            cls:'meetups_firstheader'
+                                                        },
+                                                        {
+                                                             xtype:'label',
+                                                            html:'Speaker : Anant Kumar, M.P South Bangalore',
+                                                       
+                                                        },
+                                                        {
+                                                            style:'margin-top:30px',
+                                                            xtype:'label',
+                                                            html:'Venue: Total Mall, Domlur',
+                                                            cls:'minor_details'
+                                                        },
+                                                        {
+                                                            xtype:'label',
+                                                            html:'Date: Jan 21 2014',
+                                                             cls:'minor_details'
+                                                        },
+                                                         {
+                                                            xtype:'label',
+                                                            html:'Time: 10:00 A.M',
+                                                             cls:'minor_details'
+                                                        }
+                                                    ]
+                                            }
+                                        ]
+                                },
