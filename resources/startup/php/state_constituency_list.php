@@ -1,5 +1,5 @@
 <?php
-$command2=escapeshellcmd('/home/Anshul/www/statesandconstituencies.py');
+$command2=escapeshellcmd('/home/Anshul/www/python/state_constituency_list.py');
 $output2=shell_exec($command2);
 
 $array3=json_decode($output2,true);
