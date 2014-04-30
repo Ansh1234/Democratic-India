@@ -322,12 +322,21 @@ Ext.define("Hackathon.controller.Main",
 
             Ext.getCmp('navigateview_tablet').getNavigationBar().setHidden(false);
             Ext.getCmp('navigateview_tablet').push({
+             title: '<div style="font-size:16px">Candidates</div>',
+              xtype:'candidates'
+           });
+             }
+        else if(record=='ext-simplelistitem-2')
+             {
+
+            Ext.getCmp('navigateview_tablet').getNavigationBar().setHidden(false);
+            Ext.getCmp('navigateview_tablet').push({
              title: '<div style="font-size:16px">Meet Ups</div>',
               xtype:'meetups'
            });
              }
              
-             else if(record=='ext-simplelistitem-2')
+             else if(record=='ext-simplelistitem-3')
              {
             Ext.getCmp('navigateview_tablet').getNavigationBar().setHidden(false);
             Ext.getCmp('navigateview_tablet').push({
@@ -335,7 +344,7 @@ Ext.define("Hackathon.controller.Main",
               xtype:'discussionforum'
            });
              }
-          else if(record=='ext-simplelistitem-3')
+          else if(record=='ext-simplelistitem-4')
              {
             Ext.getCmp('navigateview_tablet').getNavigationBar().setHidden(false);
             Ext.getCmp('navigateview_tablet').push({
@@ -343,7 +352,7 @@ Ext.define("Hackathon.controller.Main",
               xtype:'opinionpolls'
            });
              }
-              else if(record=='ext-simplelistitem-4')
+              else if(record=='ext-simplelistitem-5')
              {
             Ext.getCmp('navigateview_tablet').getNavigationBar().setHidden(false);
             Ext.getCmp('navigateview_tablet').push({
@@ -351,7 +360,7 @@ Ext.define("Hackathon.controller.Main",
               xtype:'letters'
            });
              }
-               else if(record=='ext-simplelistitem-5')
+               else if(record=='ext-simplelistitem-6')
              {
             Ext.getCmp('navigateview_tablet').getNavigationBar().setHidden(false);
             Ext.getCmp('navigateview_tablet').push({
@@ -415,7 +424,7 @@ Ext.define("Hackathon.controller.Main",
                 var cases=json[2].cases;
                 var education=json[3].education;
                 var age=json[4].age;
-
+                var store=Ext.getStore('Candidates');
                 for(index in names)
                 {
                     console.log(names[index]);
@@ -423,7 +432,10 @@ Ext.define("Hackathon.controller.Main",
                     console.log(cases[index]);
                     console.log(education[index]);
                     console.log(age[index]);
+                var storeItem={"Name":names[index],"Party":party[index],"Cases":cases[index],"Education":education[index],"Age":age[index]}
+                store.add(storeItem);
                 }
+                console.log("length"+store.getCount());
                 
                 
             },

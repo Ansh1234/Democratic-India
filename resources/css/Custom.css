@@ -1,3 +1,18 @@
+.item
+{
+	border: 1px solid black;
+	font-size: 16px;
+	padding: 12px 8px;
+}
+.header
+{
+	font-weight: bold;
+	font-size: 21px;
+	background: #0A63A1;
+	color:white;
+	padding:5px;
+
+}
 .homepage_toolbar
 {
 	padding:10px;

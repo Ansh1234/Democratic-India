@@ -10,6 +10,7 @@
 		{
 			model: 'Hackathon.model.PrePollsLeftMenu',
 			data : [
+					{MenuItems: "Candidates"},
 			        {MenuItems: "Meet Ups"},
 			        {MenuItems: "Post a Problem"},
 			        {MenuItems: "Opinion Polls"},

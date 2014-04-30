@@ -6,10 +6,10 @@ Ext.application({
         'Ext.MessageBox'
     ],
 
-views:['Main','Register','HomePage','PrePollsLeftMenu','PrePollsRightMenu','News1'],
-controllers:['Videos','Letters','OpinionPolls','MeetUps','Main','PopularPosts',],
-stores:['OpinionPolls','MeetUps','States','Constituencies','PrePollsLeftMenu','News','DiscussionForum'],
-models:['OpinionPolls','MeetUps','States','Constituencies','PrePollsLeftMenu','News','DiscussionForum'],
+views:['Candidates','Main','Register','HomePage','PrePollsLeftMenu','PrePollsRightMenu','News1'],
+controllers:['Candidates','Videos','Letters','OpinionPolls','MeetUps','Main','PopularPosts',],
+stores:['Candidates','OpinionPolls','MeetUps','States','Constituencies','PrePollsLeftMenu','News','DiscussionForum'],
+models:['Candidates','OpinionPolls','MeetUps','States','Constituencies','PrePollsLeftMenu','News','DiscussionForum'],
     icon: {
         '57': 'resources/icons/Icon.png',
         '72': 'resources/icons/Icon~ipad.png',
@@ -30,7 +30,7 @@ models:['OpinionPolls','MeetUps','States','Constituencies','PrePollsLeftMenu','N
     stateobj:'',
     launch: function() {
 
-        Ext.Viewport.add(Ext.create('Hackathon.view.Main'));
+       
 
         Ext.Ajax.on("beforerequest", function()
         {
@@ -69,7 +69,7 @@ models:['OpinionPolls','MeetUps','States','Constituencies','PrePollsLeftMenu','N
                                 console.log(details[x].constituency_name);
                         }
 
-       
+        Ext.Viewport.add(Ext.create('Hackathon.view.Main'));
     }
    
 });
