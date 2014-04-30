@@ -42,7 +42,7 @@ models:['OpinionPolls','MeetUps','States','Constituencies','PrePollsLeftMenu','N
         });
 
         Ext.Ajax.request({
-            url: 'resources/startup/2.php',
+            url: 'resources/startup/php/state_constituency_list.php',
             type: 'POST',
             dataType: "json",
             success: function(data)

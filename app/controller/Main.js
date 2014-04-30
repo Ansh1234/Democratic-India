@@ -380,7 +380,7 @@ Ext.define("Hackathon.controller.Main",
                  {
 
                   Ext.Ajax.request({
-     url: 'resources/startup/netainfo.php',
+     url: 'resources/startup/php/constituency_info_all.php',
     type: 'POST',
     dataType: "json",
     success: function(data){
@@ -400,7 +400,7 @@ Ext.define("Hackathon.controller.Main",
 
          Ext.Ajax.request(
          {
-            url:'resources/startup/cons.php',
+            url:'resources/startup/php/constituency_info_individual.php',
             type:"POST",
             dataType:"json",
             params: {"url": link_array[index]},
